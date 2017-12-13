@@ -1,0 +1,181 @@
+html {
+  font-size: 100%;
+  line-height: 1.15 serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  }
+
+ body {
+  font-family: Letter Gothic Std, serif; thin
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
+  color: #000;
+  background-color: #ccc;
+  margin: 0;
+  }
+
+.framework {
+  width: 90%;
+  max-width: 60em;
+  margin: 1em auto;
+  }
+
+figure {
+  margin: 0;
+  }
+
+#banner h1 {
+  font-size: 3em;
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+  padding: 2em 0;
+  }
+
+#banner h2 {
+  font-size: 2em;
+  text-align: center;
+  color: #000;
+  background-color: #ccc;
+  padding: .5em 0;
+  }
+
+#second .section p {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+
+#second .section ul {
+  text-align: left;
+  list-style-type: none;
+  float: center;
+  padding: 0;
+  margin: auto;
+  overflow: hidden;
+  }
+
+#third .section p {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+
+#third .section ul {
+  text-align: left;
+  list-style-type: none;
+  float: center;
+  padding: 0;
+  margin: auto;
+  overflow: hidden;
+  }
+
+ p {
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+  }
+
+.gallery {
+  list-style: none;
+  padding-left: 0;
+  }
+
+.gallery figure {
+  display: inline-block;
+  }
+
+.gallery .square {
+  height: 0;
+  padding-bottom: 100%;
+  overflow: hidden;
+  border: 1px solid #000;
+  }
+
+
+section p {
+  text-align: left;
+}
+
+nav {
+  text-align: left;
+  }
+
+nav summary {
+  visibility: hidden;
+  position: center;
+  width: 2em;
+  cursor: pointer;
+}
+
+nav summary:before {
+  visibility: visible;
+  display: block;
+  position: absolute;
+  top: .575em;
+  content: "";
+  width: 100%;
+  border-top: .125em solid #000;
+  z-index: 1;
+}
+
+nav summary b {
+  visibility: visible;
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  border-top: .125em solid #000;
+  border-bottom: .125em solid #000;
+  padding-left: 2em;
+  padding-bottom: 1em;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  }
+
+nav li {
+  border-top: 1px solid #000;
+  }
+
+nav li:first-child {
+  border-top: none;
+  }
+
+nav a {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  padding: 1em 0;
+  }
+
+
+@media (min-width: 48em) {
+
+.gallery-3-items {
+  columns: 1;
+  }
+
+}
+
+@media (min-width: 60em) {
+
+.gallery-3-items {
+  columns: 1;
+  }
+
+
+
+
+
+
+
